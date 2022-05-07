@@ -38,15 +38,17 @@ Sequencer and Sequences
    
 - RAL Model:
 \
-DMA Reg package    
+DMA Reg package
 \
 Adapter
-  
-Changes:
-Register "extra_info" with the address of 410 was added to the existing ----------------- design.
+
+The provided design has some changes compared to the reference model such as adding an extra register called extra_info with the address of 410.
+ 
+Output console:
 
 <p align="center">  
-<img src="jpg" width=600>
-
+<img src="output_summary.jpg" width=1000>
+  
 Reference:
+--   
 https://verificationguide.com/uvm-ral-example/uvm-ral-example-dma/
