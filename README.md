@@ -20,7 +20,8 @@ EXTRA_INFO
 
 Below is the block diagram for the testbench:
 
-[IMAGE]
+
+<img src="UVM_RAL_DMA.jpg" width=600>
 
 
 The testbench components are:
@@ -43,6 +44,9 @@ Adapter
   
 Changes:
 Register "extra_info" with the address of 410 was added to the existing ----------------- design.
+
+<p align="center">  
+<img src="jpg" width=600>
 
 Reference:
 https://verificationguide.com/uvm-ral-example/uvm-ral-example-dma/
