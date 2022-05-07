@@ -2,18 +2,20 @@
 
 The implementation shows one of the ways to access DUT registers with the UVM RAL Model.
 
-
 Below are the DMA registers from DUT:
-
+\
 INTR
-
+\
 CTRL
-
+\
 IO_ADDR
-
+\
 MEM_ADDR
-
+\
 EXTRA_INFO
+
+
+
 
 
 Below is the block diagram for the testbench:
@@ -23,22 +25,22 @@ Below is the block diagram for the testbench:
 
 The testbench components are:
 
-Environment
+- Environment
 
-     DMA Agent
+- DMA Agent:
+\
+Driver
+\
+Monitor
+\
+Sequencer and Sequences
+   
+- RAL Model:
+\
+DMA Reg package    
+\
+Adapter
   
-         Driver
-      
-         Monitor
-      
-         Sequencer and Sequences
-      
-   RAL Model
-  
-         DMA Reg package
-      
-         Adapter
-      
 Changes:
 Register "extra_info" with the address of 410 was added to the existing ----------------- design.
 
