@@ -44,7 +44,7 @@ Adapter
 
 The provided design has some changes compared to the reference model such as adding an extra register called extra_info with the address of 410.
  
-Output console:
+*Output console:*
 
 <p align="center">  
 <img src="output_summary.jpg" width=1000>
