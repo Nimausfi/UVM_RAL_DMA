@@ -1,4 +1,4 @@
-# UVM RAL using a DMA Design
+# UVM Register Model using a DMA Design
 
 The implementation shows one of the ways to access DUT registers with the UVM RAL Model.
 
